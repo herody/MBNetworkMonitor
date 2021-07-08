@@ -4,7 +4,8 @@ platform :ios, '9.0'
 
 target 'MBNetworkMonitor_Example' do
   pod 'MBNetworkMonitor', :path => '../'
-
+  pod 'DoraemonKit/Core'
+  pod 'Masonry'
   target 'MBNetworkMonitor_Tests' do
     inherit! :search_paths
 
